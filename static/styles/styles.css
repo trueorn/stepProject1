@@ -3,26 +3,64 @@ html, body{
 }
 body{
     background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
 }
 img {
     max-width: 100%;
 }
 .wrapper{
     min-width: 360px;
-    max-width: 992 px;
-    margin: 0% auto;
+    max-width: 992px;
+    margin: 0px auto;
     border: 1px solid red;
-    background-image:  url(../анкета\ smm.png);
 }
-.bgMain{
+.bg-main{
     background-color: #8edde4;
 }
-.wrapper header{
+.bg-second{
     background-color: #fff3cb;
+}
+.header-left{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.header-right{
+    text-align: center;
+}
+.header-right p{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 12px 0px;
+}
+.header-right h2{
+    font-size: 36px;
+    font-weight: 700;
+    padding: 36px 0px;
+}
+.wrapper header{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
 }
 .wrapper main{
 
 }
 .wrapper footer{
 
+}
+.header-logo{
+    width: 80%;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff3cb;
+}
+.header-logo img{
+    border-radius: 50%;
+}
+.w-30{
+    width: 30%;
+}
+.w-70{
+    width: 70%;
 }
